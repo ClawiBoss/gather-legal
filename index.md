@@ -1,6 +1,6 @@
 # Privacy Policy — Gather
 
-**Last updated: February 23, 2026**
+**Last updated: March 2026**
 
 This Privacy Policy describes how Gather ("we", "us", or "our") collects, uses, and shares information when you use our iOS application, Gather (the "App").
 
@@ -20,10 +20,13 @@ We do **not** collect your full name, phone number, location, or payment card de
 Your grocery lists, items, and templates are stored locally on your device using SwiftData. We do not currently sync this data to our servers.
 
 ### c) Purchase Information
-If you subscribe to Gather Pro, the transaction is processed entirely by Apple via the App Store. We do not receive or store your payment information.
+If you subscribe to Gather Pro, the transaction is processed entirely by Apple via the App Store. We do not receive or store your payment card details. However, we use RevenueCat to manage subscription status, which may receive:
+- Subscription and purchase history (e.g., active plan, renewal dates)
+- A RevenueCat-generated anonymous customer ID
+- Device identifier (IDFV — Identifier for Vendor, not tied to your personal identity)
 
 ### d) Usage Data
-We do not collect analytics, crash reports, or usage telemetry beyond what Apple provides through App Store Connect aggregated metrics (which are anonymous).
+RevenueCat may collect anonymous usage signals (e.g., which in-app purchase screens were viewed) to provide subscription management analytics. We do not collect additional analytics, crash reports, or usage telemetry beyond what Apple provides through App Store Connect aggregated metrics (which are anonymous).
 
 ---
 
@@ -52,6 +55,16 @@ If you sign in with Apple, Apple may share your email address (or a relay addres
 
 ### Sign in with Google (Google LLC)
 If you sign in with Google, Google shares your email address and profile information with us. Google's privacy practices are governed by Google's Privacy Policy.
+
+### RevenueCat, Inc.
+We use RevenueCat to manage in-app subscriptions and validate purchase entitlements. RevenueCat may collect:
+- Subscription and purchase history
+- Device identifier (IDFV)
+- Anonymous app usage signals related to purchase flows
+
+RevenueCat does not receive your payment card information — all payments are processed by Apple.
+
+RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ---
 
